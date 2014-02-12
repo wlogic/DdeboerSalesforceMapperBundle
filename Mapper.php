@@ -22,9 +22,9 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
  * standard objects is included in the Model directory. If you need access
  * to custom properties on these objects, it is recommended to
  * extend the standard objects, add the properties and annotate them
- * (using @Salesforce\Field annotations). If you want this mapper to accept
+ * (using AT Salesforce\Field annotations). If you want this mapper to accept
  * completely custom objects, you can extend from Model/AbstractModel, and add
- * a @Salesforce\Object annotation.
+ * a AT Salesforce\Object annotation.
  *
  * @author David de Boer <david@ddeboer.nl>
  */
