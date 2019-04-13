@@ -7,7 +7,7 @@ use Ddeboer\Salesforce\MapperBundle\Annotation as Salesforce;
 /**
  * Opportunity contact role
  *
- * @Salesforce\Object(name="OpportunityContactRole")
+ * @Salesforce\BaseObject(name="OpportunityContactRole")
  */
 class OpportunityContactRole extends AbstractModel
 {

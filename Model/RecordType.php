@@ -7,7 +7,7 @@ use Ddeboer\Salesforce\MapperBundle\Annotation as Salesforce;
 /**
  * Salesforce standard record type object
  *
- * @Salesforce\Object(name="RecordType")
+ * @Salesforce\BaseObject(name="RecordType")
  */
 class RecordType extends AbstractModel
 {
