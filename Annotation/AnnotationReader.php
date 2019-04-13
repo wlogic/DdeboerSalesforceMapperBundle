@@ -83,7 +83,7 @@ class AnnotationReader
         );
 
         $classAnnotation = $this->reader->getClassAnnotation($reflClass, 
-            'Ddeboer\Salesforce\MapperBundle\Annotation\Object'
+            'Ddeboer\Salesforce\MapperBundle\Annotation\BaseObject'
         );
         if (isset($classAnnotation->name)) {
             $salesforceProperties['object'] = $classAnnotation;
