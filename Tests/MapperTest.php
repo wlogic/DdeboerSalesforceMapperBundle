@@ -6,8 +6,8 @@ use Ddeboer\Salesforce\MapperBundle\Mapper;
 use Ddeboer\Salesforce\MapperBundle\Model;
 use Ddeboer\Salesforce\MapperBundle\Annotation;
 use Doctrine\Common\Collections\ArrayCollection;
-use Phpforce\SoapClient\Result\RecordIterator;
-use Phpforce\SoapClient\Result\QueryResult;
+use Phpforce\SalesforceBundle\Result\RecordIterator;
+use Phpforce\SalesforceBundle\Result\QueryResult;
 use Ddeboer\Salesforce\MapperBundle\Events;
 use Ddeboer\Salesforce\MapperBundle\Tests\Mock;
 use Symfony\Component\EventDispatcher\EventDispatcher;
@@ -207,7 +207,7 @@ class MapperTest extends \PHPUnit_Framework_TestCase
 
     protected function getClient()
     {
-        $client = $this->getMockBuilder('\Phpforce\SoapClient\Client')
+        $client = $this->getMockBuilder('\Phpforce\SalesforceBundle\Client')
             ->disableOriginalConstructor()
             ->getMock();
 

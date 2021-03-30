@@ -2,8 +2,8 @@
 
 namespace Ddeboer\Salesforce\MapperBundle\Tests\Mock;
 
-use Phpforce\SoapClient\Result\DescribeSObjectResult;
-use Phpforce\SoapClient\Result\DescribeSObjectResult\Field;
+use Phpforce\SalesforceBundle\Result\DescribeSObjectResult;
+use Phpforce\SalesforceBundle\Result\DescribeSObjectResult\Field;
 
 class DescribeContactResult extends DescribeSObjectResult
 {

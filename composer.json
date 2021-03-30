@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "phpforce/salesforce-bundle": "dev-master",
+        "phpforce/salesforce-bundle": "dev-master#2ae9caf58fbc7e56c4d2b194be6225e7f06ed913",
         "doctrine/common": "*"
     },
     "suggest": {
@@ -23,5 +23,11 @@
         "psr-0": { "Ddeboer\\Salesforce\\MapperBundle": "" }
     },
     "target-dir": "Ddeboer/Salesforce/MapperBundle",
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/wlogic/salesforce-bundle"
+        }
+    ]
 }
