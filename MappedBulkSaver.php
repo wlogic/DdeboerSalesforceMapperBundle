@@ -2,8 +2,8 @@
 
 namespace Ddeboer\Salesforce\MapperBundle;
 
-use Phpforce\SalesforceBundle\Result\SaveResult;
-use Phpforce\SalesforceBundle\BulkSaverInterface;
+use Phpforce\SalesforceBundle\SoapClient\Result\SaveResult;
+use Phpforce\SalesforceBundle\SoapClient\BulkSaverInterface;
 use Ddeboer\Salesforce\MapperBundle\Annotation\AnnotationReader;
 
 /**
