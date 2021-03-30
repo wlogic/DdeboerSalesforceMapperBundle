@@ -2,7 +2,7 @@
 
 namespace Ddeboer\Salesforce\MapperBundle\Tests\Mock;
 
-use Phpforce\SalesforceBundle\Result\SaveResult;
+use Phpforce\SalesforceBundle\SoapClient\Result\SaveResult;
 
 class SaveResultMock extends SaveResult
 {

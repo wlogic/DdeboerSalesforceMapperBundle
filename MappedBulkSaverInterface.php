@@ -2,7 +2,7 @@
 
 namespace Ddeboer\Salesforce\MapperBundle;
 
-use Phpforce\SalesforceBundle\Result\SaveResult;
+use Phpforce\SalesforceBundle\SoapClient\Result\SaveResult;
 
 interface MappedBulkSaverInterface
 {

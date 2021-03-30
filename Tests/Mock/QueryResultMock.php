@@ -2,7 +2,7 @@
 
 namespace Ddeboer\Salesforce\MapperBundle\Tests\Mock;
 
-use Phpforce\SalesforceBundle\Result\QueryResult;
+use Phpforce\SalesforceBundle\SoapClient\Result\QueryResult;
 
 class QueryResultMock extends QueryResult
 {

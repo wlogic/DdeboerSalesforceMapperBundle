@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=5.3.2",
-        "phpforce/salesforce-bundle": "dev-master#2ae9caf58fbc7e56c4d2b194be6225e7f06ed913",
+        "phpforce/salesforce-bundle": "dev-master#146b3ea6996ec952bc2625ff35951fe53617cf56",
         "doctrine/common": "*"
     },
     "suggest": {

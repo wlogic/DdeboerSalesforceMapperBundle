@@ -2,8 +2,8 @@
 
 namespace Ddeboer\Salesforce\MapperBundle;
 
-use Phpforce\SalesforceBundle\ClientInterface;
-use Phpforce\SalesforceBundle\Result;
+use Phpforce\SalesforceBundle\SoapClient\ClientInterface;
+use Phpforce\SalesforceBundle\SoapClient\Result;
 use Ddeboer\Salesforce\MapperBundle\Annotation\AnnotationReader;
 use Ddeboer\Salesforce\MapperBundle\Annotation;
 use Ddeboer\Salesforce\MapperBundle\Response\MappedRecordIterator;

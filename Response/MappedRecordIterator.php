@@ -3,7 +3,7 @@
 namespace Ddeboer\Salesforce\MapperBundle\Response;
 
 use Ddeboer\Salesforce\MapperBundle\Mapper;
-use Phpforce\SalesforceBundle\Result\RecordIterator;
+use Phpforce\SalesforceBundle\SoapClient\Result\RecordIterator;
 
 /**
  * A mapped record iterator encapsulates a plain Salesforce record iterator and
